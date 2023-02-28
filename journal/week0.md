@@ -21,13 +21,25 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 
 ## Homework challenges
 
-### Enabling Credentials for IAM users
+### Enabling Credentials 
 
+* Created AWS free tier account 
+* Go to IAM 
+* Enable MFA
+  1.  Go to Assign MFA if not assigned
+  2.  Specify name
+  3.  Choose MFA device. I have selected Google Authenticator as my authenticator device. Downloaded in my phone, Scanned the code and connected to the account.
+  4.  Enter the 2 MFA codes.
+  5.  Click Add MFA.
+
+
+![MFA](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/image.png "MFA enabled")
 
 
 ### Logical and Napkin diagrams
 
-![Napkin design]( "Napkin Design")
+
+![Napkin design](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Picsart_23-02-28_01-07-47-891.jpg "Napkin Diagram")
 
 
 
