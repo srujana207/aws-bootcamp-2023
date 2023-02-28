@@ -21,7 +21,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 
 ## Homework challenges
 
-### Enabling Credentials 
+### AWS IAM
 
 * Created AWS free tier account 
 * Go to IAM 
@@ -30,8 +30,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
   2.  Specify name
   3.  Choose MFA device. I have selected Google Authenticator as my authenticator device. Downloaded in my phone, Scanned the code and connected to the account.
   4.  Enter the 2 MFA codes.
-  5.  Click Add MFA.
-
+  5.  Click Add MFA. 
 
 ![MFA](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/image.png "MFA enabled")
 
@@ -40,6 +39,29 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 
 
 ![Napkin design](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Picsart_23-02-28_01-07-47-891.jpg "Napkin Diagram")
+
+
+#### Lucid chart image of the Logical Diagram
+
+
+![Lucid chart](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Blank%20diagram_%20Lucidchart.png "Lucid Chart diagram Logical")
+
+
+#### The above Lucid chart is [linked] as follows
+
+
+### Conceptual diagram
+
+![Lucid chart conceptual diagram]( "Lucid chart conceptual diagram")
+
+#### The above is my recreated version of the conceptual diagram of Cruddur. The Lucid chart diagram is aslo linked [here].
+
+
+
+[linked]: https://lucid.app/lucidchart/b3129d64-4cb4-4e46-ad79-33ccdbecaf54/edit?viewport_loc=-766%2C-420%2C2560%2C1116%2C0_0&invitationId=inv_76e4f070-6ec2-46ea-802e-3764c3975101
+
+[here]: https://lucid.app/lucidchart/941b6e3a-7255-4f07-ae22-b560077ad9d8/edit?viewport_loc=3%2C54%2C2567%2C1116%2C0_0&invitationId=inv_15ce3798-cb5a-460c-987e-4e98dbde89db
+
 
 
 
