@@ -21,7 +21,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 
 ## Homework challenges
 
-### AWS IAM
+### Set MFA
 
 * Created AWS free tier account 
 * Go to IAM 
@@ -31,6 +31,15 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
   3.  Choose MFA device. I have selected Google Authenticator as my authenticator device. Downloaded in my phone, Scanned the code and connected to the account.
   4.  Enter the 2 MFA codes.
   5.  Click Add MFA. 
+
+### Set IAM Roles
+* Go to Roles in the left hand side of  AWS IAM
+* Click  "Create roles"
+* In AWS Service Policies, Select EC2
+* In Add Permissions, Select AdminstartorAccess or whichever policy/policies
+* Provide Name, Description
+* Add meaningful tag
+* Click "Create role"
 
 ![MFA](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/image.png "MFA enabled")
 
@@ -52,7 +61,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 
 ### Conceptual diagram
 
-![Lucid chart conceptual diagram]( "Lucid chart conceptual diagram")
+![Lucid chart conceptual diagram](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/conceputal%20diagram.png "Lucid chart conceptual")
 
 #### The above is my recreated version of the conceptual diagram of Cruddur. The Lucid chart diagram is aslo linked [here].
 
