@@ -21,7 +21,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 
 ## Homework challenges
 
-### Set MFA
+### 1. Set MFA
 
 * Created AWS free tier account 
 * Go to IAM 
@@ -32,7 +32,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
   4.  Enter the 2 MFA codes.
   5.  Click Add MFA. 
 
-### Set IAM Roles
+### 2. Set IAM Roles
 * Go to Roles in the left hand side of  AWS IAM
 * Click  "Create roles"
 * In AWS Service Policies, Select EC2
@@ -44,7 +44,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 ![MFA](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/image.png "MFA enabled")
 
 
-### Logical and Napkin diagrams
+### 3. Logical and Napkin diagrams
 
 
 ![Napkin design](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Picsart_23-02-28_01-07-47-891.jpg "Napkin Diagram")
@@ -53,7 +53,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 #### Lucid chart image of the Logical Diagram
 
 
-![Lucid chart](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Blank%20diagram_%20Lucidchart.png "Lucid Chart diagram Logical")
+![Lucid chart Logic](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/Blank%20diagram_%20Lucidchart.png "Lucid Chart diagram Logical")
 
 
 #### The above Lucid chart is [linked] as follows
@@ -61,15 +61,23 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 
 ### Conceptual diagram
 
-![Lucid chart conceptual diagram](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/conceputal%20diagram.png "Lucid chart conceptual")
+![Lucid chart conceptual](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/conceputal%20diagram.png "Lucid chart diagram conceptual")
 
 #### The above is my recreated version of the conceptual diagram of Cruddur. The Lucid chart diagram is aslo linked [here].
 
+### CI/CD pipeline conceptual diagram
+
+
+![Lucid chart CI/CD]( "Lucid chart diagram CI/CD")
+
+#### The above is my recreated version of the conceptual diagram of the CI/CD pipeline. This is the [link] of the Lucid chart diagram.
 
 
 [linked]: https://lucid.app/lucidchart/b3129d64-4cb4-4e46-ad79-33ccdbecaf54/edit?viewport_loc=-766%2C-420%2C2560%2C1116%2C0_0&invitationId=inv_76e4f070-6ec2-46ea-802e-3764c3975101
 
 [here]: https://lucid.app/lucidchart/941b6e3a-7255-4f07-ae22-b560077ad9d8/edit?viewport_loc=3%2C54%2C2567%2C1116%2C0_0&invitationId=inv_15ce3798-cb5a-460c-987e-4e98dbde89db
+
+[link]: https://lucid.app/lucidchart/2750f61a-8249-43b4-a627-626c7974d2a6/edit?viewport_loc=-10%2C-10%2C1707%2C821%2C0_0&invitationId=inv_d76973e3-0b30-4660-a75e-f91f80b742dc
 
 
 
