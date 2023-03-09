@@ -45,7 +45,7 @@ In week 0 of the bootcamp, we were introduced to a Business scenario and a good 
 
 ![IAM user](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/iam.png "IAM user created")
 
-![IAM role]( "IAM role craeted")
+![IAM role](https://github.com/srujana207/aws-bootcamp-cruddur-2023/blob/main/journal/assets/iam%20role.png "IAM role craeted")
 
 
 ### 3. Logical and Napkin diagrams
