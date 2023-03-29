@@ -123,6 +123,47 @@ You plan to use this access key to enable the AWS CLI to access your AWS account
 * You have connected AWS CLI to the Account.
 * Type in "aws iam list-users" in the propmt to check. If output displayed is correct, you have successfully configured AWS CLI
 
+### 5. Billing and Budget
+
+#### Enabling Billing alarms
+
+* Go to Billing.
+* Select Billing Preferences from the left hand side.
+* Check box the following
+
+  1. recieve PDF invoice by email
+  2. Recieve free tier usage by alerts and fill in the email address where you'd like to recieve the alerts
+  3. Recieve Billing alerts
+* Click Save Preferences
+* Now, go to Manage Billing Alerts highlighted.
+* This will redirect you to CloudWatch Management Console.
+* Select Alarms from the left hand side.
+* Select In Alarms under it.
+* Go to Create alarms.
+* Choose the Select metric option under the 1. Specify and conidtions.
+*  Select option under Browse, here, Billing as we are creating billing alarms.
+* Choose the option from the provided options, here, Total Estimated Charge.
+* Choose USD as currency.
+* Click on Select metric. We have successfully completed selecting the metrics for the graph of the billing estimates.
+* Provide the metric name as required. Select the options for Conditions, here, Static as Threshold type, Greater as Whenever week0EstimatedCharges is... and any value, here, 1 as than.
+* Click on Next.
+*  In the 2. Configure actions, choose In alarm in Alarm state trigger.
+*  Select Create new topic from Send a notification to the following SNS topic. Enter the name of the SNS topic name and email endpoint. Click on Create topic. Successfully configured what to do when the amout goes above the threshold value mentioned.
+*  Enter the name and enter a brief description (in Markdown language) of the purpose of the alarm in the 3. Add name and description. Click Next.
+*  As the last step 4. Preview and create suggests, verify the entered deatils and click on Create alarm.
+*  Go to All alarms. The alarm will be successfully created. 
+
+
+#### Creating Budget
+
+* Go to Billing.
+* Select Budgets from the left hand side.
+* Click Create budget.
+* Choose options from Choose budget setup. Here, in Budget setup, choose Use a template(simplified).
+* From Templates - new, choose an option. Here, select Monthly cost budget. Give a name, amount and email address and click on Create budget. You have succesfully created a buddget, which notifies to the mentioned email address when the amount exceeds the given value.
+
+
+
 
 [linked]: https://lucid.app/lucidchart/b3129d64-4cb4-4e46-ad79-33ccdbecaf54/edit?viewport_loc=-766%2C-420%2C2560%2C1116%2C0_0&invitationId=inv_76e4f070-6ec2-46ea-802e-3764c3975101
 
