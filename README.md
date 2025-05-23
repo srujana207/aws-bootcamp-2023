@@ -10,4 +10,4 @@ Familiarised with:
 
 The `/journal` directory contains
 
-- [ ] [Week 0](journal/week0.md)
+- [ ] [AWS Bootcamp](journal/week0.md)
