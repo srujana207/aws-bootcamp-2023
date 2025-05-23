@@ -1,4 +1,4 @@
-# AWS Cloud Project Bootcamp
+# AWS Cloud Familiarization Bootcamp
 
 Attended cloud bootcamp to familarize with AWS platform.
 
