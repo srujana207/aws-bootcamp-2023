@@ -1,11 +1,12 @@
 # AWS Cloud Project Bootcamp
 
-Attended a bootcamp to familarize with AWS platform.
-Familiarised with 
-MFA
-Organization and IAM used for creating and controlling multiple accounts with set rules and constraints for end-users
-AWS CLI
-Billing for enabling alerts and setting budget
+Attended cloud bootcamp to familarize with AWS platform.
+
+Familiarised with:  
+>MFA  
+>Organization and IAM used for creating and controlling multiple accounts with set rules and constraints for end-users  
+>AWS CLI  
+>Billing for enabling alerts and setting budget  
 
 The `/journal` directory contains
 
